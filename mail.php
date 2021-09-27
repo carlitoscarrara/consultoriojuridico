@@ -32,7 +32,7 @@ if ($name == "") {
     $subject = '[WEB] Nueva Consulta';
     $_message = '<html><head></head><body>';
     $_message .= '<p>Nombre: ' . $name . '</p>';
-    $_message .= '<p>Teléfono: ' . $phone . '</p>';
+    $_message .= '<p>Telefono: ' . $phone . '</p>';
     $_message .= '<p>Email: ' . $email . '</p>';
     $_message .= '<p>Consulta: ' . $message . '</p>';
     $_message .= '</body></html>';
